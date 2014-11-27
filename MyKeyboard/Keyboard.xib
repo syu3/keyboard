@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -216,7 +216,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="63" placeholderIntrinsicHeight="63" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AxI-tA-mIM">
-                    <rect key="frame" x="321" y="164" width="53" height="53"/>
+                    <rect key="frame" x="320" y="163" width="53" height="53"/>
                     <color key="backgroundColor" red="0.70980392160000005" green="0.74117647060000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                     <state key="normal" title="改行">
@@ -225,7 +225,7 @@
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="63" placeholderIntrinsicHeight="63" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="biV-zu-1Rn">
-                    <rect key="frame" x="321" y="110" width="53" height="53"/>
+                    <rect key="frame" x="320" y="110" width="53" height="53"/>
                     <color key="backgroundColor" red="0.70980392160000005" green="0.74117647060000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                     <state key="normal" title="→">
@@ -237,7 +237,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="63" placeholderIntrinsicHeight="63" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zJ-Tt-UPJ">
-                    <rect key="frame" x="321" y="57" width="53" height="53"/>
+                    <rect key="frame" x="320" y="57" width="53" height="53"/>
                     <color key="backgroundColor" red="0.70980392160000005" green="0.74117647060000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                     <state key="normal" title="空白">
@@ -246,19 +246,10 @@
                     </state>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="63" placeholderIntrinsicHeight="63" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ns9-8C-UE6">
-                    <rect key="frame" x="321" y="4" width="53" height="53"/>
+                    <rect key="frame" x="320" y="4" width="53" height="53"/>
                     <color key="backgroundColor" red="0.70980392160000005" green="0.74117647060000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                     <state key="normal" title="消">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="63" placeholderIntrinsicHeight="63" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSe-WU-TzJ">
-                    <rect key="frame" x="161" y="163" width="53" height="53"/>
-                    <color key="backgroundColor" red="0.70980392160000005" green="0.74117647060000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
-                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                    <state key="normal" title="変更">
                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -354,14 +345,14 @@
                     </state>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEM-bV-nGE">
-                    <rect key="frame" x="125" y="163" width="249" height="1"/>
+                    <rect key="frame" x="99" y="162" width="274" height="1"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="63" placeholderIntrinsicHeight="63" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJu-s6-EUb">
-                    <rect key="frame" x="99" y="4" width="63" height="212"/>
+                    <rect key="frame" x="98" y="3" width="63" height="159"/>
                     <color key="backgroundColor" red="0.70980392160000005" green="0.74117647060000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="47"/>
                     <state key="normal" title="⇦">
@@ -373,7 +364,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="63" placeholderIntrinsicHeight="63" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mee-aQ-70l">
-                    <rect key="frame" x="267" y="164" width="53" height="53"/>
+                    <rect key="frame" x="267" y="163" width="53" height="53"/>
                     <color key="backgroundColor" red="0.70980392156862748" green="0.74117647058823533" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                     <state key="normal" title="、。?!">
@@ -424,22 +415,41 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lct-F3-7Ij">
-                    <rect key="frame" x="161" y="4" width="1" height="214"/>
+                    <rect key="frame" x="161" y="3" width="1" height="214"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="63" placeholderIntrinsicHeight="63" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9h-JI-qjd">
+                    <rect key="frame" x="162" y="164" width="51" height="53"/>
+                    <color key="backgroundColor" red="0.70980392160000005" green="0.74117647060000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                    <state key="normal" title="変更">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="63" placeholderIntrinsicHeight="63" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSe-WU-TzJ">
+                    <rect key="frame" x="98" y="163" width="63" height="54"/>
+                    <color key="backgroundColor" red="0.70980392160000005" green="0.74117647060000003" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                    <state key="normal" title="変更">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.91180294750000002" green="0.90595064120000002" blue="0.85452907830000002" alpha="1" colorSpace="calibratedRGB"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="a1" destination="Nui-fu-bUP" id="H07-O4-5AZ"/>
-                <outlet property="aaaKey" destination="kJM-Cv-TIu" id="3tt-Db-jJd"/>
-                <outlet property="deleteKey" destination="Ns9-8C-UE6" id="r0F-og-W3e"/>
+                <outlet property="aKey" destination="kJM-Cv-TIu" id="ixU-Iq-yqW"/>
+                <outlet property="deleteKey" destination="Ns9-8C-UE6" id="IBS-0a-SLz"/>
                 <outlet property="globeKey" destination="wSe-WU-TzJ" id="evZ-s4-To2"/>
                 <outlet property="ha" destination="hXG-c3-hL6" id="qW8-ve-MIL"/>
                 <outlet property="ha1" destination="7xn-HU-rgg" id="8Cz-Cq-cvl"/>
+                <outlet property="haKey" destination="hXG-c3-hL6" id="jrd-24-dvb"/>
                 <outlet property="hatena" destination="Mee-aQ-70l" id="shO-Zb-aOe"/>
                 <outlet property="hatena1" destination="NAp-Ub-MU8" id="Z7Q-o4-DfX"/>
                 <outlet property="henkou" destination="wSe-WU-TzJ" id="Es1-WI-HTS"/>
@@ -448,6 +458,7 @@
                 <outlet property="idou1" destination="GEH-6t-x8Z" id="4TB-N0-Abh"/>
                 <outlet property="ka" destination="EMi-7Y-bUn" id="dhd-pN-Grg"/>
                 <outlet property="ka1" destination="Jm8-7m-08f" id="EH2-CX-Maw"/>
+                <outlet property="kaKey" destination="EMi-7Y-bUn" id="RfZ-h4-pxu"/>
                 <outlet property="kaigyou" destination="AxI-tA-mIM" id="sH0-Ir-q4U"/>
                 <outlet property="kaigyou1" destination="SF2-x7-6jy" id="d58-yM-YNX"/>
                 <outlet property="kuuhaku" destination="0zJ-Tt-UPJ" id="dkd-0Y-3DT"/>
@@ -469,26 +480,33 @@
                 <outlet property="label" destination="d37-wB-p0T" id="Ekt-CN-URn"/>
                 <outlet property="ma" destination="0kr-dR-BES" id="KNF-8g-FnG"/>
                 <outlet property="ma1" destination="xmz-UF-tYN" id="M9J-TX-pwh"/>
+                <outlet property="maKey" destination="0kr-dR-BES" id="xRZ-jl-Wei"/>
                 <outlet property="migi" destination="biV-zu-1Rn" id="qoX-XP-pfJ"/>
                 <outlet property="migi1" destination="gzP-Vd-TVz" id="Ivq-j9-5S2"/>
                 <outlet property="na" destination="k4o-ZC-H68" id="g1A-SI-WQ3"/>
                 <outlet property="na1" destination="y9f-SZ-R9k" id="mVH-7E-fZB"/>
+                <outlet property="naKey" destination="k4o-ZC-H68" id="G2I-wB-kX0"/>
                 <outlet property="ra" destination="Yht-7n-ZdW" id="n06-AG-XEV"/>
                 <outlet property="ra1" destination="sDJ-9u-upS" id="nvX-tt-cUM"/>
+                <outlet property="raKey" destination="Yht-7n-ZdW" id="6lX-dP-B8L"/>
                 <outlet property="returnkey" destination="AxI-tA-mIM" id="xSa-Mp-nmn"/>
                 <outlet property="sa" destination="rOm-Z0-Ajg" id="Vec-1x-g15"/>
                 <outlet property="sa1" destination="vZU-g8-SEA" id="8oM-22-AAc"/>
+                <outlet property="saKey" destination="rOm-Z0-Ajg" id="A6Z-OK-Anb"/>
                 <outlet property="shoukyo" destination="Ns9-8C-UE6" id="bz5-Zo-bjo"/>
                 <outlet property="shoukyo1" destination="3ZE-ds-MTD" id="Rd3-rn-clr"/>
                 <outlet property="spaceKey" destination="0zJ-Tt-UPJ" id="X9y-R6-h7j"/>
                 <outlet property="ta" destination="Dl2-4J-5rO" id="QLk-hx-QQM"/>
                 <outlet property="ta1" destination="Uam-Zf-fmm" id="Fa6-0e-g9u"/>
+                <outlet property="taKey" destination="Dl2-4J-5rO" id="jIR-r3-DkM"/>
                 <outlet property="wa" destination="aQG-NU-tvn" id="WmL-2b-q6r"/>
                 <outlet property="wa1" destination="lAg-Pl-xrk" id="ca7-sF-kBG"/>
+                <outlet property="waKey" destination="aQG-NU-tvn" id="731-qB-0wz"/>
                 <outlet property="ya" destination="oAr-HV-2qs" id="hIG-8s-n0o"/>
                 <outlet property="ya1" destination="Uhg-F6-Ay8" id="C56-I4-b2J"/>
+                <outlet property="yaKey" destination="oAr-HV-2qs" id="eYb-ah-kEH"/>
             </connections>
-            <point key="canvasLocation" x="150" y="557.5"/>
+            <point key="canvasLocation" x="173" y="568.5"/>
         </view>
     </objects>
 </document>

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface KeyboardViewController : UIInputViewController{
+    
     IBOutlet UIButton*a;
     IBOutlet UIButton*ka;
     IBOutlet UIButton*sa;
@@ -56,6 +57,15 @@
     IBOutlet UILabel*la51;
     IBOutlet UILabel*la61;
     IBOutlet UILabel*la71;
-
+    NSTimer *tm;
+    NSTimer *tm1;
+    NSTimer *tm2;
+    NSTimer *tm3;
+    NSTimer *tm4;
+    NSTimer *tm5;
+    NSTimer *tm6;
+    NSTimer *tm7;
+    NSTimer *tm8;
+    NSTimer *tm9;
 }
 @end

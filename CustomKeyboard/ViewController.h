@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KeyboardViewController.h"
 
 @interface ViewController : UIViewController{
-        IBOutlet UITextView*textView;
-}
+    IBOutlet UITextView*textView;
 
+}
 
 @end
 

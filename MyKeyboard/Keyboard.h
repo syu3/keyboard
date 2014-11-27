@@ -9,22 +9,23 @@
 #import <UIKit/UIKit.h>
 
 #import "KeyboardViewController.h"
+int adesu;
+int kadesu;
+int sadesu;
+int tadesu;
+int nadesu;
+int hadesu;
+int madesu;
+int yadesu;
+int radesu;
+int wadesu;
+int hokadesu;
+
 @interface Keyboard : UIView{
     
     NSTimer *tm;
     
-    int adesu;
-    int kadesu;
-    int sadesu;
-    int tadesu;
-    int nadesu;
-    int hadesu;
-    int madesu;
-    int yadesu;
-    int radesu;
-    int wadesu;
-    int hokadesu;
-    
+   
     IBOutlet UITextView*textView;
     int number;
     IBOutlet UILabel*label;
@@ -97,7 +98,16 @@
 }
 
 @property (nonatomic, weak) id delegate;
-@property (weak, nonatomic) IBOutlet UIButton *aaaKey;
+@property (weak, nonatomic) IBOutlet UIButton *aKey;
+@property (weak, nonatomic) IBOutlet UIButton *kaKey;
+@property (weak, nonatomic) IBOutlet UIButton *saKey;
+@property (weak, nonatomic) IBOutlet UIButton *taKey;
+@property (weak, nonatomic) IBOutlet UIButton *naKey;
+@property (weak, nonatomic) IBOutlet UIButton *haKey;
+@property (weak, nonatomic) IBOutlet UIButton *maKey;
+@property (weak, nonatomic) IBOutlet UIButton *yaKey;
+@property (weak, nonatomic) IBOutlet UIButton *raKey;
+@property (weak, nonatomic) IBOutlet UIButton *waKey;
 @property (nonatomic, readonly) NSObject <UITextDocumentProxy> *textDocumentProxy;
 @property (weak, nonatomic) IBOutlet UIButton *deleteKey;
 @property (weak, nonatomic) IBOutlet UIButton *globeKey;
