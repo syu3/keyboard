@@ -24,6 +24,13 @@
     [super viewDidLoad];
     
     
+
+    
+    
+    
+    
+    
+    
     
     
     
@@ -67,37 +74,184 @@
                                 action:@selector(pressReturnkey)
                       forControlEvents:UIControlEventTouchUpInside];
 
-    [self.keyboard.aKey addTarget:self
-                           action:@selector(akey)
+    [self.keyboard.a addTarget:self
+                           action:@selector(a)
                       forControlEvents:UIControlEventTouchUpInside];
-    [self.keyboard.kaKey addTarget:self
-                           action:@selector(kakey)
+    [self.keyboard.i addTarget:self
+                        action:@selector(i)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.u addTarget:self
+                        action:@selector(u)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.e addTarget:self
+                        action:@selector(e)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.o addTarget:self
+                        action:@selector(o)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.ka addTarget:self
+                           action:@selector(ka)
                  forControlEvents:UIControlEventTouchUpInside];
-    [self.keyboard.saKey addTarget:self
-                           action:@selector(sakey)
+    [self.keyboard.ki addTarget:self
+                        action:@selector(ki)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.ku addTarget:self
+                        action:@selector(ku)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.ke addTarget:self
+                        action:@selector(ke)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.ko addTarget:self
+                        action:@selector(ko)
+              forControlEvents:UIControlEventTouchUpInside];
+
+    [self.keyboard.sa addTarget:self
+                           action:@selector(sa)
                  forControlEvents:UIControlEventTouchUpInside];
-    [self.keyboard.taKey addTarget:self
-                            action:@selector(takey)
+    [self.keyboard.si addTarget:self
+                        action:@selector(si)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.su addTarget:self
+                        action:@selector(su)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.se addTarget:self
+                        action:@selector(se)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.so addTarget:self
+                        action:@selector(so)
+              forControlEvents:UIControlEventTouchUpInside];
+
+    [self.keyboard.ta addTarget:self
+                            action:@selector(ta)
                   forControlEvents:UIControlEventTouchUpInside];
-    [self.keyboard.naKey addTarget:self
-                           action:@selector(nakey)
+    [self.keyboard.ti addTarget:self
+                        action:@selector(ti)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.tu addTarget:self
+                        action:@selector(tu)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.te addTarget:self
+                        action:@selector(te)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.to addTarget:self
+                        action:@selector(to)
+              forControlEvents:UIControlEventTouchUpInside];
+
+    [self.keyboard.na addTarget:self
+                           action:@selector(na)
                  forControlEvents:UIControlEventTouchUpInside];
-    [self.keyboard.haKey addTarget:self
-                            action:@selector(hakey)
+    [self.keyboard.ni addTarget:self
+                        action:@selector(ni)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.nu addTarget:self
+                        action:@selector(nu)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.ne addTarget:self
+                        action:@selector(ne)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.no addTarget:self
+                        action:@selector(no)
+              forControlEvents:UIControlEventTouchUpInside];
+
+    [self.keyboard.ha addTarget:self
+                            action:@selector(ha)
                   forControlEvents:UIControlEventTouchUpInside];
-    [self.keyboard.maKey addTarget:self
-                           action:@selector(makey)
+    [self.keyboard.hi addTarget:self
+                        action:@selector(hi)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.hu addTarget:self
+                        action:@selector(hu)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.he addTarget:self
+                        action:@selector(he)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.ho addTarget:self
+                        action:@selector(ho)
+              forControlEvents:UIControlEventTouchUpInside];
+
+    [self.keyboard.ma addTarget:self
+                           action:@selector(ma)
                  forControlEvents:UIControlEventTouchUpInside];
-    [self.keyboard.yaKey addTarget:self
-                            action:@selector(yakey)
+    [self.keyboard.mi addTarget:self
+                        action:@selector(mi)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.mu addTarget:self
+                        action:@selector(mu)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.me addTarget:self
+                        action:@selector(me)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.mo addTarget:self
+                        action:@selector(mo)
+              forControlEvents:UIControlEventTouchUpInside];
+
+    [self.keyboard.ya addTarget:self
+                            action:@selector(ya)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.yu addTarget:self
+                        action:@selector(yu)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.yo addTarget:self
+                        action:@selector(yo)
+              forControlEvents:UIControlEventTouchUpInside];
+
+
+    [self.keyboard.ra addTarget:self
+                           action:@selector(ra)
+                 forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.ri addTarget:self
+                        action:@selector(ri)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.ru addTarget:self
+                        action:@selector(ru)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.re addTarget:self
+                        action:@selector(re)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.ro addTarget:self
+                        action:@selector(ro)
+              forControlEvents:UIControlEventTouchUpInside];
+
+    [self.keyboard.wa addTarget:self
+                            action:@selector(wa)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.wo addTarget:self
+                        action:@selector(wo)
+              forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.nn addTarget:self
+                         action:@selector(nn)
+               forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.adesu addTarget:self
+                         action:@selector(adesu)
+               forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.kadesu addTarget:self
+                            action:@selector(kadesu)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.sadesu addTarget:self
+                            action:@selector(sadesu)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.tadesu addTarget:self
+                            action:@selector(tadesu)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.nadesu addTarget:self
+                            action:@selector(nadesu)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.hadesu addTarget:self
+                            action:@selector(hadesu)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.madesu addTarget:self
+                            action:@selector(madesu)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.yadesu addTarget:self
+                            action:@selector(yadesu)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.radesu addTarget:self
+                            action:@selector(radesu)
+                  forControlEvents:UIControlEventTouchUpInside];
+    [self.keyboard.wadesu addTarget:self
+                            action:@selector(wadesu)
                   forControlEvents:UIControlEventTouchUpInside];
 
-    [self.keyboard.raKey addTarget:self
-                           action:@selector(rakey)
-                 forControlEvents:UIControlEventTouchUpInside];
-    [self.keyboard.waKey addTarget:self
-                            action:@selector(wakey)
-                  forControlEvents:UIControlEventTouchUpInside];
 
 
     
@@ -116,341 +270,7 @@
 -(void)pressDeletekey{
     [self.textDocumentProxy deleteBackward];
 }
--(void)akey{
-    adesu++;
-    if (adesu==1) {
-        [self.textDocumentProxy insertText:@"あ"];
-        tm =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (adesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"い"];
-        
-    }else if (adesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"う"];
-    }else if (adesu==4) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"え"];
-    }else if (adesu==5) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"お"];
-        
-    }
-}
 
--(void)kakey{
-    kadesu++;
-    if (kadesu==1) {
-        [self.textDocumentProxy insertText:@"か"];
-        tm1 =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge1:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (kadesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"き"];
-        
-    }else if (kadesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"く"];
-    }else if (kadesu==4) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"け"];
-    }else if (kadesu==5) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"こ"];
-        
-    }
-}
--(void)sakey{
-    sadesu++;
-    if (sadesu==1) {
-        [self.textDocumentProxy insertText:@"さ"];
-        tm2 =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge2:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (sadesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"し"];
-        
-    }else if (sadesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"す"];
-    }else if (sadesu==4) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"せ"];
-    }else if (sadesu==5) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"そ"];
-        
-    }
-}
--(void)takey{
-    tadesu++;
-    if (tadesu==1) {
-        [self.textDocumentProxy insertText:@"た"];
-        tm3 =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge3:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (tadesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"ち"];
-        
-    }else if (tadesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"つ"];
-    }else if (tadesu==4) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"て"];
-    }else if (tadesu==5) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"と"];
-        
-    }
-}
--(void)nakey{
-    nadesu++;
-    if (nadesu==1) {
-        [self.textDocumentProxy insertText:@"な"];
-        tm4 =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge4:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (nadesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"に"];
-        
-    }else if (nadesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"ぬ"];
-    }else if (nadesu==4) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"ね"];
-    }else if (nadesu==5) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"の"];
-        
-    }
-}
--(void)hakey{
-    hadesu++;
-    if (hadesu==1) {
-        [self.textDocumentProxy insertText:@"は"];
-        tm5 =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge5:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (hadesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"ひ"];
-        
-    }else if (hadesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"ふ"];
-    }else if (hadesu==4) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"へ"];
-    }else if (hadesu==5) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"ほ"];
-        
-    }
-}
--(void)makey{
-    madesu++;
-    if (madesu==1) {
-        [self.textDocumentProxy insertText:@"ま"];
-        tm6 =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge6:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (madesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"み"];
-        
-    }else if (madesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"む"];
-    }else if (madesu==4) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"め"];
-    }else if (madesu==5) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"も"];
-        
-    }
-}
--(void)yakey{
-    yadesu++;
-    if (yadesu==1) {
-        [self.textDocumentProxy insertText:@"や"];
-        tm7 =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge7:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (yadesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"ゆ"];
-        
-    }else if (yadesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"よ"];
-    }
-}
--(void)rakey{
-    radesu++;
-    if (radesu==1) {
-        [self.textDocumentProxy insertText:@"ら"];
-        tm8 =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge8:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (radesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"り"];
-        
-    }else if (radesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"る"];
-    }else if (radesu==4) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"れ"];
-    }else if (radesu==5) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"ろ"];
-        
-    }
-}
--(void)wakey{
-    wadesu++;
-    if (wadesu==1) {
-        [self.textDocumentProxy insertText:@"わ"];
-        tm9 =
-        [NSTimer
-         scheduledTimerWithTimeInterval:2.0
-         target:self
-         selector:@selector(hoge9:)
-         userInfo:nil
-         repeats:YES
-         ];
-    }else if (wadesu==2) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"を"];
-        
-    }else if (wadesu==3) {
-        [self.textDocumentProxy deleteBackward];
-        [self.textDocumentProxy insertText:@"ん"];
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--(void)hoge:(NSTimer*)timer{
-    adesu=0;
-    [tm invalidate];
-    tm=0;
-}
--(void)hoge1:(NSTimer*)timer{
-    kadesu=0;
-    [tm1 invalidate];
-    tm1=0;
-}
--(void)hoge2:(NSTimer*)timer{
-    sadesu=0;
-    [tm2 invalidate];
-    tm2=0;
-}
--(void)hoge3:(NSTimer*)timer{
-    tadesu=0;
-    [tm3 invalidate];
-    tm3=0;
-}
--(void)hoge4:(NSTimer*)timer{
-    nadesu=0;
-    [tm4 invalidate];
-    tm4=0;
-}
--(void)hoge5:(NSTimer*)timer{
-    hadesu=0;
-    [tm5 invalidate];
-    tm5=0;
-}
--(void)hoge6:(NSTimer*)timer{
-    madesu=0;
-    [tm6 invalidate];
-    tm6=0;
-}
--(void)hoge7:(NSTimer*)timer{
-    yadesu=0;
-    [tm7 invalidate];
-    tm7=0;
-}
--(void)hoge8:(NSTimer*)timer{
-    radesu=0;
-    [tm8 invalidate];
-    tm8=0;
-}
--(void)hoge9:(NSTimer*)timer{
-    wadesu=0;
-    [tm9 invalidate];
-    tm9=0;
-}
 -(void)pressSpacekey{
     [self.textDocumentProxy insertText:@"　"];
 }
@@ -461,6 +281,1055 @@
     [self.textDocumentProxy insertText:[key currentTitle]];
 }
 
+-(void)a{
+   [self.textDocumentProxy insertText:@"あ"];
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)i{
+       [self.textDocumentProxy insertText:@"い"];
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)u{
+       [self.textDocumentProxy insertText:@"う"];
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)e{
+       [self.textDocumentProxy insertText:@"え"];
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)o{
+       [self.textDocumentProxy insertText:@"お"];
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)ka{
+    [self.textDocumentProxy insertText:@"か"];
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha= 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)ki{
+    [self.textDocumentProxy insertText:@"き"];
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha= 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)ku{
+    [self.textDocumentProxy insertText:@"く"];
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha= 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)ke{
+    [self.textDocumentProxy insertText:@"け"];
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha= 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)ko{
+    [self.textDocumentProxy insertText:@"こ"];
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha= 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+}
+-(void)sa{
+    [self.textDocumentProxy insertText:@"さ"];
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha= 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
 
+}
+-(void)si{
+    [self.textDocumentProxy insertText:@"し"];
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha= 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
 
+}
+-(void)su{
+    [self.textDocumentProxy insertText:@"す"];
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha= 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)se{
+    [self.textDocumentProxy insertText:@"せ"];
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha= 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)so{
+    [self.textDocumentProxy insertText:@"そ"];
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha= 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ta{
+    [self.textDocumentProxy insertText:@"た"];
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha= 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ti{
+    [self.textDocumentProxy insertText:@"ち"];
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha= 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)tu{
+    [self.textDocumentProxy insertText:@"つ"];
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha= 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)te{
+    [self.textDocumentProxy insertText:@"て"];
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha= 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)to{
+    [self.textDocumentProxy insertText:@"と"];
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha= 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)na{
+    [self.textDocumentProxy insertText:@"な"];
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha= 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ni{
+    [self.textDocumentProxy insertText:@"に"];
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha= 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)nu{
+    [self.textDocumentProxy insertText:@"ぬ"];
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha= 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ne{
+    [self.textDocumentProxy insertText:@"ね"];
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha= 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)no{
+    [self.textDocumentProxy insertText:@"の"];
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha= 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ha{
+    [self.textDocumentProxy insertText:@"は"];
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha= 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)hi{
+    [self.textDocumentProxy insertText:@"ひ"];
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha= 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)hu{
+    [self.textDocumentProxy insertText:@"ふ"];
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha= 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)he{
+    [self.textDocumentProxy insertText:@"へ"];
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha= 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ho{
+    [self.textDocumentProxy insertText:@"ほ"];
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha= 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ma{
+    [self.textDocumentProxy insertText:@"ま"];
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha= 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)mi{
+    [self.textDocumentProxy insertText:@"み"];
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha= 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)mu{
+    [self.textDocumentProxy insertText:@"む"];
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha= 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)me{
+    [self.textDocumentProxy insertText:@"め"];
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha= 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)mo{
+    [self.textDocumentProxy insertText:@"も"];
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha= 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ya{
+    [self.textDocumentProxy insertText:@"や"];
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)yu{
+    [self.textDocumentProxy insertText:@"ゆ"];
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)yo{
+    [self.textDocumentProxy insertText:@"よ"];
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ra{
+    [self.textDocumentProxy insertText:@"ら"];
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha= 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ri{
+    [self.textDocumentProxy insertText:@"り"];
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha= 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ru{
+    [self.textDocumentProxy insertText:@"る"];
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha= 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)re{
+    [self.textDocumentProxy insertText:@"れ"];
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha= 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)ro{
+    [self.textDocumentProxy insertText:@"ろ"];
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha= 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)wa{
+    [self.textDocumentProxy insertText:@"わ"];
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)wo{
+    [self.textDocumentProxy insertText:@"を"];
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)nn{
+    [self.textDocumentProxy insertText:@"ん"];
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    self.keyboard.haikeiLabel.alpha = 0.0;
+    self.keyboard.button.alpha = 0.0;
+    self.keyboard.button1.alpha = 0.0;
+
+}
+-(void)adesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 1.0;
+    self.keyboard.il.alpha= 1.0;
+    self.keyboard.ul.alpha = 1.0;
+    self.keyboard.el.alpha = 1.0;
+    self.keyboard.ol.alpha = 1.0;
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha = 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha = 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha = 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha = 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha = 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha = 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha = 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+
+}
+-(void)kadesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.kal.alpha = 1.0;
+    self.keyboard.kil.alpha = 1.0;
+    self.keyboard.kul.alpha = 1.0;
+    self.keyboard.kel.alpha = 1.0;
+    self.keyboard.kol.alpha = 1.0;
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha = 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha = 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha = 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha = 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha = 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha = 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    
+}
+-(void)sadesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha = 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.sal.alpha = 1.0;
+    self.keyboard.sil.alpha = 1.0;
+    self.keyboard.sul.alpha = 1.0;
+    self.keyboard.sel.alpha = 1.0;
+    self.keyboard.sol.alpha = 1.0;
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha = 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha = 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha = 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha = 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha = 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    
+}
+-(void)tadesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha = 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha = 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.tal.alpha = 1.0;
+    self.keyboard.til.alpha = 1.0;
+    self.keyboard.tul.alpha = 1.0;
+    self.keyboard.tel.alpha = 1.0;
+    self.keyboard.tol.alpha = 1.0;
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha = 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha = 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha = 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha = 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    
+}
+
+-(void)nadesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha = 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha = 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha = 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.nal.alpha = 1.0;
+    self.keyboard.nill.alpha = 1.0;
+    self.keyboard.nul.alpha = 1.0;
+    self.keyboard.nel.alpha = 1.0;
+    self.keyboard.nol.alpha = 1.0;
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha = 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha = 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha = 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    
+}
+-(void)hadesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha = 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha = 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha = 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha = 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.hal.alpha = 1.0;
+    self.keyboard.hil.alpha = 1.0;
+    self.keyboard.hul.alpha = 1.0;
+    self.keyboard.hel.alpha = 1.0;
+    self.keyboard.hol.alpha = 1.0;
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha = 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha = 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    
+}
+-(void)madesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha = 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha = 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha = 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha = 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha = 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.mal.alpha = 1.0;
+    self.keyboard.mil.alpha = 1.0;
+    self.keyboard.mul.alpha = 1.0;
+    self.keyboard.mel.alpha = 1.0;
+    self.keyboard.mol.alpha = 1.0;
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha = 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    
+}
+-(void)yadesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha = 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha = 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha = 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha = 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha = 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha = 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.yal.alpha = 1.0;
+    self.keyboard.yul.alpha = 1.0;
+    self.keyboard.yol.alpha = 1.0;
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha = 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    
+}
+-(void)radesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha = 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha = 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha = 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha = 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha = 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha = 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.ral.alpha = 1.0;
+    self.keyboard.ril.alpha = 1.0;
+    self.keyboard.rul.alpha = 1.0;
+    self.keyboard.rel.alpha = 1.0;
+    self.keyboard.rol.alpha = 1.0;
+    self.keyboard.wal.alpha = 0.0;
+    self.keyboard.wol.alpha = 0.0;
+    self.keyboard.nnl.alpha = 0.0;
+    
+}
+-(void)wadesu{
+    self.keyboard.button.alpha = 1.0;
+    self.keyboard.button1.alpha = 1.0;
+    self.keyboard.haikeiLabel.alpha = 1.0;
+    self.keyboard.al.alpha = 0.0;
+    self.keyboard.il.alpha= 0.0;
+    self.keyboard.ul.alpha = 0.0;
+    self.keyboard.el.alpha = 0.0;
+    self.keyboard.ol.alpha = 0.0;
+    self.keyboard.kal.alpha = 0.0;
+    self.keyboard.kil.alpha = 0.0;
+    self.keyboard.kul.alpha = 0.0;
+    self.keyboard.kel.alpha = 0.0;
+    self.keyboard.kol.alpha = 0.0;
+    self.keyboard.sal.alpha = 0.0;
+    self.keyboard.sil.alpha = 0.0;
+    self.keyboard.sul.alpha = 0.0;
+    self.keyboard.sel.alpha = 0.0;
+    self.keyboard.sol.alpha = 0.0;
+    self.keyboard.tal.alpha = 0.0;
+    self.keyboard.til.alpha = 0.0;
+    self.keyboard.tul.alpha = 0.0;
+    self.keyboard.tel.alpha = 0.0;
+    self.keyboard.tol.alpha = 0.0;
+    self.keyboard.nal.alpha = 0.0;
+    self.keyboard.nill.alpha = 0.0;
+    self.keyboard.nul.alpha = 0.0;
+    self.keyboard.nel.alpha = 0.0;
+    self.keyboard.nol.alpha = 0.0;
+    self.keyboard.hal.alpha = 0.0;
+    self.keyboard.hil.alpha = 0.0;
+    self.keyboard.hul.alpha = 0.0;
+    self.keyboard.hel.alpha = 0.0;
+    self.keyboard.hol.alpha = 0.0;
+    self.keyboard.mal.alpha = 0.0;
+    self.keyboard.mil.alpha = 0.0;
+    self.keyboard.mul.alpha = 0.0;
+    self.keyboard.mel.alpha = 0.0;
+    self.keyboard.mol.alpha = 0.0;
+    self.keyboard.yal.alpha = 0.0;
+    self.keyboard.yul.alpha = 0.0;
+    self.keyboard.yol.alpha = 0.0;
+    self.keyboard.ral.alpha = 0.0;
+    self.keyboard.ril.alpha = 0.0;
+    self.keyboard.rul.alpha = 0.0;
+    self.keyboard.rel.alpha = 0.0;
+    self.keyboard.rol.alpha = 0.0;
+    self.keyboard.wal.alpha = 1.0;
+    self.keyboard.wol.alpha = 1.0;
+    self.keyboard.nnl.alpha = 1.0;
+    
+}
 @end
